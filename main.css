@@ -4,7 +4,7 @@
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 2em;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 #turn {
-    font-size: 30px;
+    font-size: 1.5em;
 }
 .board {
     display: inline-grid;
@@ -49,8 +49,8 @@ body {
 }
 
 #reset {
-    font-size: 30px;
-    padding: 20px 20px;
+    font-size: 1.5em;
+    padding: 0.5em;
     color: black;
     background-color: white;
     font-family: 'Playfair Display SC', serif;
