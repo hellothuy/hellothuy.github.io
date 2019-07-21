@@ -1,0 +1,68 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-image: url('../images/bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+  color: #ffff;
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400, 700;
+  padding: 5%;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400, 700;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3em;
+}
+
+.footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 1.75em;
+  height: 1.75em;
+  margin: 0.5em;
+}
+
+.footer:last-child {
+  margin-right: 0;
+}
+
+/* Headline, Description Paragraph & Button */
+
+content {
+  display: flex;
+  padding: 3em;
+}
+
+.illustration {
+  padding-right: 2em;
+  padding-top: 4em;
+}
+.main {
+  padding-left: 4em;;
+  padding-top: 7em;
+}
+
+.registerbtn {
+  color: hsl(257, 40%, 49%);
+  font-weight: 400;
+  padding: 14px 60px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+button:hover {
+  color: f8f8f8;
+}
