@@ -1,10 +1,17 @@
+html {
+  background: url('../images/bg-desktop.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-image: url('../images/bg-desktop.svg');
-  background-color: hsl(257, 40%, 49%);
   color: #ffff;
-  padding: 30px;
+  padding: 3em;
 }
 
 h1 {
@@ -43,16 +50,13 @@ footer {
 
 content {
   display: flex;
+  flex-direction: column;
   padding: 3em;
 }
 
 .illustration {
-  padding-right: 2em;
-  padding-top: 4em;
-}
-.main {
-  padding-left: 4em;;
-  padding-top: 7em;
+  width: 100%;
+  height: auto;
 }
 
 .registerbtn {
@@ -63,6 +67,23 @@ content {
   font-size: 14px;
 }
 
-button:hover {
-  color: f8f8f8;
+.registerbtn:hover {
+  background-color: #eeeeee;
+}
+
+/* Desktop version */
+
+@media(min-width: 768px) {
+  content {
+    flex-direction: row;
+  }
+
+  .illustration {
+    width: 60%;
+    height: 60%;
+  }
+
+  .main {
+    padding-left: 6em;
+  }
 }
